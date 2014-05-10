@@ -1,0 +1,55 @@
+/* 
+    Document   : webline_699-
+    Created on : Jan 30, 2014, 11:29:44 AM
+    Author     : Chris Meyers
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@media screen and (max-width: 699px){
+    table#webline {
+        width: 100%;
+        color: #3f1a0a;
+        background: #dfdbc3;
+        border: 1px solid #3f1a0a;
+        border-collapse: collapse;
+    }
+
+    table#webline tr {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #3f1a0a;
+    }
+
+    table#webline tr td {
+        border:  1px solid #3f1a0a;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    table#webline tr td a {
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    table#webline tr td a:hover {
+        text-decoration: underline;
+    }
+
+    table#webline tr td img {
+        vertical-align:middle;
+        border:none;
+        margin: 0px;
+        padding: 0px;
+    }
+    td.force-col{
+        display:block;
+        width: auto;
+    }
+    .self-image{
+        height: auto;
+        max-width: 75%;
+    }
+}

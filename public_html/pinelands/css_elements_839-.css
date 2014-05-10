@@ -1,0 +1,250 @@
+/* 
+    Created on : Apr 22, 2014, 9:16:23 PM
+    Author     : Chris_Meyers
+*/
+
+@media screen and (max-width: 839px){
+    html{
+        position: relative;
+        min-height: 100%;
+    }
+    
+    body {
+        /*
+        Background image can be found at: 
+        http://outdoormick.wordpress.com/2010/09/02/september-1-2010-carranza-memorial-batona-trail-mini-hike/ 
+        */
+        background: url(images/trail.jpg) no-repeat center center fixed;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0 0 60px; /*3rd parameter must = #footer height*/
+        background-size: cover;
+    }
+
+    .errors{
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    .cboxes{
+        width: 15px;
+        height: 15px;
+        font-family: Verdana, Geneva, sans-serif;
+        cursor:pointer;
+    }
+
+    p.message{
+        width:auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    table.names{
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    table.emails{
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    table.comments{
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    td.force-row{
+        display: block;
+        width: auto;
+    }
+
+    tr.emails{
+        display: block;
+    }
+    
+    input{
+        width: 200px;
+        height: 25px;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    textarea{
+        width: 200px;
+        height: 100px;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    a.fancytxt{
+        color: #cccccc;
+        text-shadow: 2px 2px #000000;
+        text-decoration: none;
+    }
+
+    a.fancytxt:hover{
+        color:#5bb75b;
+        cursor:pointer;
+    }
+
+    div.northDiv, div.southeastDiv, div.southDiv{
+        display:none;
+    }
+    
+    
+    #bannercontainer{
+        width: auto;
+        margin-right: 10px;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    #banner{
+        width: 275px;
+        padding: 5px;
+        color: #cccccc;
+        text-shadow: 2px 2px #000000;
+        margin-top: 0px;
+        background-color: rgba(33,40,55,0.75);
+        font-size: x-large;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main {
+        color:#FFFAFA;
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(33,40,55,0.75);
+        padding: 5px;
+        margin-bottom: 150px; /* Add more spacing between footer and main */
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: medium; 
+    }  
+
+    #footer {
+        color:#FFFAFA;
+        position: absolute;
+        bottom: 0px;
+        height: 60px; /* make bigger to add more lines in footer */
+        margin-left: 10px;
+        margin-right: 10px;
+        left:0;
+        right:0;
+        text-align: center;
+        background-color: rgba(33,40,55,0.75);
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: small; 
+        padding-top:5px;
+        width:auto;
+    } 
+
+    
+    /* This button was generated using CSSButtonGenerator.com */
+    .submit-button {
+        -moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+        box-shadow:inset 0px 1px 0px 0px #97c4fe;
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+        background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+        /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');*/
+        background-color:#3d94f6;
+        -webkit-border-top-left-radius:6px;
+        -moz-border-radius-topleft:6px;
+        border-top-left-radius:6px;
+        -webkit-border-top-right-radius:6px;
+        -moz-border-radius-topright:6px;
+        border-top-right-radius:6px;
+        -webkit-border-bottom-right-radius:6px;
+        -moz-border-radius-bottomright:6px;
+        border-bottom-right-radius:6px;
+        -webkit-border-bottom-left-radius:6px;
+        -moz-border-radius-bottomleft:6px;
+        border-bottom-left-radius:6px;
+        text-indent:0;
+        border:1px solid #337fed;
+        display:inline-block;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        font-style:normal;
+        height:40px;
+        line-height:40px;
+        width:100px;
+        text-decoration:none;
+        text-align:center;
+        text-shadow:1px 1px 0px #1570cd;
+    }
+    .submit-button:hover {
+        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+        background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+        /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');*/
+        background-color:#1e62d0;
+    }.submit-button:active {
+        position:relative;
+        top:1px;
+    }
+
+    .inputbox-mod{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: small;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #cccccc;
+    }
+    .inputbox-mod:focus{
+        outline: none;
+        border-color: #5bb75b;
+        box-shadow: 0 0 10px #5bb75b;
+    }
+
+    .textarea-mod{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: small;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #cccccc;
+    }
+    .textarea-mod:focus{
+        outline: none;
+        border-color: #5bb75b;
+        box-shadow: 0 0 10px #5bb75b;
+    }
+
+    .movingImages{
+        float:right;
+        padding:10px;
+    }
+    
+    .mapmodule{
+        border:0;
+        display: block;
+        margin: 0 auto;
+        margin-top:25px;
+        margin-bottom:25px;
+    }
+    
+    h2.header{
+        text-align: center;
+        margin-top: 0px;
+    }
+}
