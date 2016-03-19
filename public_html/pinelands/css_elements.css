@@ -78,7 +78,8 @@
     }
     
     div.northDiv, div.southeastDiv, div.southDiv{
-        display:none;
+        display:block;
+        margin-left: 10px;
     }
     
     
